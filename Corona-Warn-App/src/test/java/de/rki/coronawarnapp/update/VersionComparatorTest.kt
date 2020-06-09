@@ -4,7 +4,7 @@ import org.hamcrest.MatcherAssert.assertThat
 import org.hamcrest.Matchers.`is`
 import org.junit.Test
 
-class VerificationServiceTest {
+class VersionComparatorTest {
 
     @Test
     fun testVersionMajorOlder() {
