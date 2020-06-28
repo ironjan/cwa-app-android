@@ -1,4 +1,4 @@
-package de.rki.coronawarnapp
+    package de.rki.coronawarnapp
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -103,9 +103,6 @@ class CoronaWarnApplication : Application(), LifecycleObserver,
                 WindowManager.LayoutParams.FLAG_SECURE
             )
         }
-
-        // set screen orientation to portrait
-        activity.requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_USER_PORTRAIT
     }
 
     override fun onActivityResumed(activity: Activity) {
